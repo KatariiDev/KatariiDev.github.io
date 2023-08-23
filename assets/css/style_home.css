@@ -93,7 +93,7 @@ html {
 }
 							/*Content Section*/
 #content {
-	border: 10px solid rgba(255,255,255,0.6);
+	border:10px solid rgba(255,255,255,0.6);
 	border-radius: 1px;
 	background-image: linear-gradient(to bottom right, #cd6090, #6d44d5)
 }
