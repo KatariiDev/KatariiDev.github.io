@@ -8,13 +8,18 @@ html {
 	font-family: arial;
 }
 
+:root {
+	--height:50px;
+	--size-avatar: 40px;
+}
+
 #main {
 
 }
 							/*Header Section*/
 #header {
 	text-transform: uppercase;
-	height: 46px;
+	height: var(--height);
 	background-color: #000;
 	position: fixed;
 	top: 0;
@@ -25,11 +30,12 @@ html {
 
 #nav {
 	list-style-type: none;
+	display: inline-block;
 }
 
 #nav li {
 	display: inline-block;
-	line-height: 46px;
+	line-height: var(--height);
 	padding: 0 16px;
 }
 
@@ -46,16 +52,28 @@ html {
 	text-decoration: none;
 	font-weight: 600;
 }
+#header .avatar-demo {
+	height: var(--size-avatar);
+	width: var(--size-avatar);
+	background: url("/assets/img/home/avatar-demo-home-1.jpg") top center / cover no-repeat;
+	display: inline-block;
+	float: right;
+	border-radius: 100em;
+	box-shadow: 0px 0px 1px 1px red;
+	line-height: var(--height);
+	margin: 5px 10px 5px 0px;
+}
+
 							/*Slider Section*/
 #slider {
 	background-color: #5a5b61;
 	padding-top: 50%;
-	margin-top: 46px;
+	margin-top: var(--height);
 	position: relative;
 }
 
 #slider .back-home {
-	padding: 12px 15px 10px 10px;
+	padding: 12px 20px 15px 10px;
 	position: absolute;
 	top: 0;
 	text-align: center;
@@ -64,6 +82,7 @@ html {
 	background-color: rgba(0,255,255,0.2);
 	border: 0px none none;
 	border-radius: 0px 0px 40px 0px;
+	font-weight: 600;
 }
 
 #slider .back-home:hover {

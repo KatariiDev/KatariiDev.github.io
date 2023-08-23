@@ -8,6 +8,11 @@ html {
 	font-family: arial;
 }
 
+:root {
+	--height:50px;
+	--size-avatar: 40px;
+}
+
 ::-webkit-scrollbar {
 	display: none
 }
@@ -19,7 +24,7 @@ html {
 #header {
 	z-index: 1;
 	text-transform: uppercase;
-	height: 46px;
+	height: var(--height);
 	background-color: #000;
 	position: fixed;
 	top: 0;
@@ -29,11 +34,12 @@ html {
 
 #nav {
 	list-style-type: none;
+	display: inline-block;
 }
 
 #nav li {
 	display: inline-block;
-	line-height: 46px;
+	line-height: var(--height);
 	padding: 0 16px;
 }
 
@@ -50,16 +56,28 @@ html {
 	text-decoration: none;
 	font-weight: 600;
 }
+#header .avatar-demo {
+	height: var(--size-avatar);
+	width: var(--size-avatar);
+	background: url("/assets/img/home/avatar-demo-home-1.jpg") top center / cover no-repeat;
+	display: inline-block;
+	float: right;
+	border-radius: 100em;
+	box-shadow: 0px 0px 1px 1px red;
+	line-height: var(--height);
+	margin: 5px 10px 5px 0px;
+}
+
 							/*Slider Section*/
 #slider {
-	background: url("/assets/img/team_content/team_content_img_2.jpg") top center / cover no-repeat ;
+	background: url("/assets/img/team/team_content_img_2.jpg") top center / cover no-repeat ;
 	padding-top: 50%;
-	margin-top: 46px;
+	margin-top: var(--height);
 	position: relative;
 }
 
 #slider .back-home {
-	padding: 12px 15px 10px 10px;
+	padding: 12px 20px 15px 10px;
 	position: absolute;
 	top: 0;
 	text-align: center;
@@ -68,6 +86,7 @@ html {
 	background-color: rgba(0,255,255,0.2);
 	border: 0px none none;
 	border-radius: 0px 0px 40px 0px;
+	font-weight: 600;
 }
 
 #slider .back-home:hover {
@@ -98,7 +117,9 @@ html {
 							/*Content Section*/
 #content {
 	position: relative;
-	padding-top: 100px;
+	padding: 100px 0;
+	background-color: #ccc;
+
 }
 
 #content #member-team {
@@ -112,27 +133,41 @@ html {
 	margin: 0 8px;
 }
 
-.member-img {
-	background: url(/assets/img/team_content/avatar-demo.jpg) center/cover no-repeat;
-    height: 600px
+#content .member-img {
+	border: 3px solid #ff5e5e;
+	box-shadow: 7px 12px #888888;
+	border-radius: 15px;
+	height: 1200px;
 }
 
-
-
-#content .member-section #member-1 {
-	
+#content .member-img-1 {
+	background: url(/assets/img/team/avatar-demo.jpg) center/cover no-repeat;
 }
 
-#content .member-section #member-2 {
-	
+#content .member-img-2 {
+	background: url(/assets/img/team/avatar-demo-noober-2.jpg) center/cover no-repeat;
 }
 
-#content .member-section #member-3 {
-	
+#content .member-img-3 {
+	background: url(/assets/img/team/avatar-demo.jpg) center/cover no-repeat;
 }
 
 #content .member-name {
+	margin-bottom: 60px;
+	font-size: 25px;
+	border: 0px none none;
+	border-radius: 20px 5px 20px 5px;
+	background-color: #ecdfdf;
+	padding: 10px 0;
+}
 
+#content .member-name:hover {
+	background-color: #9ad4ff;
+}
+
+#content .content-arrow {
+	font-size: 15px;
+	font-weight: 900;
 }
 							/*Footer Section*/
 #footer {

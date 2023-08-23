@@ -8,13 +8,18 @@ html {
 	font-family: arial;
 }
 
+:root {
+	--height:50px;
+	--size-avatar: 40px;
+}
+
 #main {
 
 }
 							/*Header Section*/
 #header {
 	text-transform: uppercase;
-	height: 46px;
+	height: var(--height);
 	background-color: #000;
 	position: fixed;
 	top: 0;
@@ -25,11 +30,12 @@ html {
 
 #nav {
 	list-style-type: none;
+	display: inline-block;
 }
 
 #nav li {
 	display: inline-block;
-	line-height: 46px;
+	line-height: var(--height);
 	padding: 0 16px;
 }
 
@@ -46,41 +52,74 @@ html {
 	text-decoration: none;
 	font-weight: 600;
 }
+
+#header .avatar-demo {
+	height: var(--size-avatar);
+	width: var(--size-avatar);
+	background: url("/assets/img/home/avatar-demo-home-1.jpg") top center / cover no-repeat;
+	display: inline-block;
+	float: right;
+	border-radius: 100em;
+	box-shadow: 0px 0px 1px 1px red;
+	line-height: var(--height);
+	margin: 5px 10px 5px 0px;
+}
+
 							/*Slider Section*/
 #slider {
-	margin-top: 46px;
+	margin-top: var(--height);
 	position: relative;
 	padding-top: 50%;
-	background: url("/assets/img/slider/slider_home_2.png") top center / cover no-repeat ;
+	background: url("/assets/img/home/slider_home_3.gif") top center / cover no-repeat ;
 }
 
 #slider .text-content-slider {
 	position: absolute;
 	color: white;
-	bottom: 40px;
+	bottom: 200px;
 	text-align: center;
 	width: 100%;
 }
 
 #slider .text-heading {
-	font-weight: 500;
-	font-size: 24px;
+	font-weight: 600;
+	font-size: 40px;
+	color: #50c878;	
 }
 
 #slider .text-description {
-	font-size: 15px;
+	font-size: 20px;
 	margin-top: 25px;
 }
 							/*Content Section*/
 #content {
+	border: 10px solid rgba(255,255,255,0.6);
+	border-radius: 1px;
+	background-image: linear-gradient(to bottom right, #cd6090, #6d44d5)
+}
 
+#content .section-img-1 {
+	border: 2px solid cyan;
+	border-radius: 10px
+}
+
+#content .section-img-2 {
+	
+}
+
+#content .section-img-3 {
+	
+}
+
+#content .section-img-4 {
+	
 }
 
 #content .content-section {
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 64px 0;
+	padding: 64px 15px;
 }
 #content .section-heading {
 	position: relative;
@@ -118,25 +157,14 @@ html {
 	border-radius: 15px
 }
 
-#content #skills:hover {
-	background-color: #333;
-	color: white;
-}
-
+#content #more:hover,
+#content #contact:hover,
+#content #skills:hover,
 #content #team:hover {
 	background-color: #333;
 	color: white;
 }
 
-#content #contact:hover {
-	background-color: #333;
-	color: white;
-}
-
-#content #more:hover {
-	background-color: #333;
-	color: white;
-}
 
 #content .ti-angle-right {
 	font-size: 15px;
