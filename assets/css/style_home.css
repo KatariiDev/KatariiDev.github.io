@@ -1,0 +1,150 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: arial;
+}
+
+#main {
+
+}
+							/*Header Section*/
+#header {
+	text-transform: uppercase;
+	height: 46px;
+	background-color: #000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+#nav {
+	list-style-type: none;
+}
+
+#nav li {
+	display: inline-block;
+	line-height: 46px;
+	padding: 0 16px;
+}
+
+#nav > li:hover {
+	background-color: #ccc;
+}
+
+#nav > li:hover > a {
+	color: black;
+}
+
+#nav li a {
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+}
+							/*Slider Section*/
+#slider {
+	margin-top: 46px;
+	position: relative;
+	padding-top: 50%;
+	background: url("/assets/img/slider/slider_home_2.png") top center / cover no-repeat ;
+}
+
+#slider .text-content-slider {
+	position: absolute;
+	color: white;
+	bottom: 40px;
+	text-align: center;
+	width: 100%;
+}
+
+#slider .text-heading {
+	font-weight: 500;
+	font-size: 24px;
+}
+
+#slider .text-description {
+	font-size: 15px;
+	margin-top: 25px;
+}
+							/*Content Section*/
+#content {
+
+}
+
+#content .content-section {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 64px 0;
+}
+#content .section-heading {
+	position: relative;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+	letter-spacing: 4px;
+}
+
+#content .section-sub-heading {
+	text-align: center;
+	font-size: 15px;
+	margin-top: 25px;
+	font-style: italic;
+	opacity: 0.6;
+
+}
+
+#content .skills-text {
+	font-size: 15px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	text-align: justify;
+	line-height: 1.6;
+}
+
+#content .go-to-page {
+	padding: 10px;
+	color:black;
+	margin-top: 4px;
+	text-decoration: none;
+	border: 2px solid #ccc;
+	border-radius: 15px
+}
+
+#content #skills:hover {
+	background-color: #333;
+	color: white;
+}
+
+#content #team:hover {
+	background-color: #333;
+	color: white;
+}
+
+#content #contact:hover {
+	background-color: #333;
+	color: white;
+}
+
+#content #more:hover {
+	background-color: #333;
+	color: white;
+}
+
+#content .ti-angle-right {
+	font-size: 15px;
+	font-weight: 800;
+}
+
+							/*Footer Section*/
+#footer {
+
+}
+

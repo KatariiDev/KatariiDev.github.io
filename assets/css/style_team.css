@@ -1,0 +1,140 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: arial;
+}
+
+::-webkit-scrollbar {
+	display: none
+}
+
+#main {
+
+}
+							/*Header Section*/
+#header {
+	z-index: 1;
+	text-transform: uppercase;
+	height: 46px;
+	background-color: #000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#nav {
+	list-style-type: none;
+}
+
+#nav li {
+	display: inline-block;
+	line-height: 46px;
+	padding: 0 16px;
+}
+
+#nav > li:hover {
+	background-color: #ccc;
+}
+
+#nav > li:hover > a {
+	color: black;
+}
+
+#nav li a {
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+}
+							/*Slider Section*/
+#slider {
+	background: url("/assets/img/team_content/team_content_img_2.jpg") top center / cover no-repeat ;
+	padding-top: 50%;
+	margin-top: 46px;
+	position: relative;
+}
+
+#slider .back-home {
+	padding: 12px 15px 10px 10px;
+	position: absolute;
+	top: 0;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	background-color: rgba(0,255,255,0.2);
+	border: 0px none none;
+	border-radius: 0px 0px 40px 0px;
+}
+
+#slider .back-home:hover {
+	background-color: #45d6bd;
+	opacity: 0.8;
+	color: #333;
+}
+
+#slider .slider-section-team {
+	bottom: 180px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	color: white;
+	text-shadow: 1px 1px #ccc;
+}
+
+#slider .slider-heading-team {
+	font-weight: 600;
+	font-size: 90px;
+
+}
+
+#slider .slider-sub-heading-team {
+	font-size: 18px;
+	font-style: italic;
+}
+							/*Content Section*/
+#content {
+	position: relative;
+	padding-top: 100px;
+}
+
+#content #member-team {
+	display: flex;
+
+}
+
+#content .member-section {
+	flex: 1;
+	text-align: center;
+	margin: 0 8px;
+}
+
+.member-img {
+	background: url(/assets/img/team_content/avatar-demo.jpg) center/cover no-repeat;
+    height: 600px
+}
+
+
+
+#content .member-section #member-1 {
+	
+}
+
+#content .member-section #member-2 {
+	
+}
+
+#content .member-section #member-3 {
+	
+}
+
+#content .member-name {
+
+}
+							/*Footer Section*/
+#footer {
+
+}

@@ -1,0 +1,60 @@
+1. h1 - h6 - heading  <h1></h1> --> h1 - h6 nhỏ dần
+2. p - paragraph <p></p> --> văn bản
+3. img - image <img src="" alt="">
+	src: chèn link ảnh
+	alt: ghi chú ảnh (tức tên ảnh)
+4. a - anchor <a href="">...</a>
+	href: chèn đường liên kết đến trang nào đó
+	>...< : ... điền nội dung đến
+5. ul, li - inordered list, list item : Danh sách
+	<ul>
+		<li>
+
+		</li>
+	</ul>
+
+	<ul> dấu chấm
+	<ol> số
+6. table - tạo bảng
+	<table>
+		<thead> :tạo nội dung đầu bảng
+			<th>...</th>
+			<th>...</th>
+			<th>...</th>		
+		</thead>
+		<tbody>: tạo thân bảng
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+
+7. input <input type="text">
+	"text" : tạo khung điền
+	"checkbox": tạo ô tick
+	"radio": tạo ô chọn hình tròn
+
+8. button <button>...</button>
+	>...<: Điền nội dung hiển thị trong nút
+
+9. div: tạo khối bao quanh tất cả code muốn bo
+
+
+
+Attribute: thuộc tính
+Internal : CSS trong file html
+External : tạo 1 file CSS mới
+Inline : thuộc tính attribute
+
+id: dùng 1 lần - phân biệt thuộc tính - #id
+class: dùng nhiều đối tượng chung 1 class - .class
+
+
+# lớp giả
+:root đặt biến --biến:
+:hover xuất hiện khi di chuyển chuột vào
+:active di chuyển chuột vào ko thay đổi nhưng bấm giữ chuột sẽ thay đổi
+:first-child lấy thuộc tính con đầu tiên
+:last-child lấy thuộc tính con thứ hai
