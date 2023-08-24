@@ -63,7 +63,7 @@ html {
 	display: inline-block;
 	float: right;
 	border-radius: 100em;
-	box-shadow: 0px 0px 1px 1px red;
+	box-shadow: 0px 0px 1px 1px cyan;
 	line-height: var(--height);
 	margin: 5px 10px 5px 0px;
 }
