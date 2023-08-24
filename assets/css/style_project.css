@@ -66,7 +66,7 @@ html {
 }
 
 #slider {
-	background: url("/assets/img/skills/skills_img_1.jpg") top center / cover no-repeat ;
+	background: url("/assets/img/project/project_img_1.jpg") top center / cover no-repeat ;
 	padding-top: 50%;
 	margin-top: var(--height);
 	position: relative;
@@ -91,7 +91,7 @@ html {
 	color: #333;
 }
 
-#slider .slider-section-skills {
+#slider .slider-section-project {
 	bottom: 150px;
 	position: absolute;
 	text-align: center;
@@ -100,13 +100,13 @@ html {
 	text-shadow: 1px 1px #ccc;
 }
 
-#slider .slider-heading-skills {
+#slider .slider-heading-project {
 	font-weight: 600;
 	font-size: 90px;
 
 }
 
-#slider .slider-sub-heading-skills {
+#slider .slider-sub-heading-project {
 	font-size: 30px;
 	font-style: italic;
 }
