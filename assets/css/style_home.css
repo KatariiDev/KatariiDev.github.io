@@ -272,8 +272,10 @@ html {
 	color: white;
 	text-align: center;
 	font-size: 30px;
-	font-weight: 500;
-	letter-spacing: 4px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed rgba(0,0,0,0.3);
 }
 
 #content .section-sub-heading {
@@ -300,6 +302,7 @@ html {
 	text-decoration: none;
 	border: 4px solid #ccc;
 	border-radius: 15px;
+	font-weight: 700;
 }
 
 #content #more:hover,
@@ -307,7 +310,8 @@ html {
 #content #project:hover,
 #content #team:hover {
 	background-color: #ccc;
-	color: white;
+	color: #91288d;
+	border-color: white;
 }
 
 
