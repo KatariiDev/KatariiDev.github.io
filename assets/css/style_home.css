@@ -441,24 +441,24 @@ html {
 
 .modal .modal-safe-page {
 	display: inline-block;
-    float: right;
-    border: 1px solid #000;
-    padding: 6px;
-    border-radius: 7px;
-    text-align: center;
-    background-color: #00a261;
-    color: white;
-    font-weight: 600;
+    	float: right;
+    	border: 1px solid #000;
+    	padding: 6px;
+    	border-radius: 7px;
+    	text-align: center;
+    	background-color: #00a261;
+    	color: white;
+   	 font-weight: 600;
 }
 
 .modal .modal-nsafe-page {
 	display: inline-block;
-    float: right;
-    border: 1px solid #000;
-    padding: 6px;
-    border-radius: 7px;
-    text-align: center;
-    background-color: red;
-    color: white;
-    font-weight: 600;
+    	float: right;
+    	border: 1px solid #000;
+    	padding: 6px;
+    	border-radius: 7px;
+    	text-align: center;
+    	background-color: red;
+    	color: white;
+    	font-weight: 600;
 }
