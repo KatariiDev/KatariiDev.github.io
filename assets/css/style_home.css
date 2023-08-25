@@ -45,10 +45,15 @@ html {
 	display: inline-block;
 }
 
+.more-nav {
+	list-style-type: none;
+}
+
 #nav li {
 	display: inline-block;
 	line-height: var(--height);
 	padding: 0 16px;
+	position: relative;
 }
 
 #nav > li:hover {
@@ -59,7 +64,7 @@ html {
 	color: black;
 }
 
-#nav li a {
+#nav > li > a {
 	color: white;
 	text-decoration: none;
 	font-weight: 600;

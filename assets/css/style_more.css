@@ -30,6 +30,7 @@ html {
 }
 							/*Header Section*/
 #header {
+	z-index: 1;
 	text-transform: uppercase;
 	height: var(--height);
 	background: linear-gradient(-90deg, #ccc, black);
@@ -37,7 +38,6 @@ html {
 	top: 0;
 	left: 0;
 	right: 0;
-	z-index: 1;
 }
 
 #nav {
@@ -64,6 +64,7 @@ html {
 	text-decoration: none;
 	font-weight: 600;
 }
+
 #header .avatar-demo {
 	height: var(--size-avatar);
 	width: var(--size-avatar);
@@ -74,40 +75,4 @@ html {
 	box-shadow: 0px 0px 1px 1px cyan;
 	line-height: var(--height);
 	margin: 5px 10px 5px 0px;
-}
-
-							/*Slider Section*/
-#slider {
-	background-color: #5a5b61;
-	padding-top: 50%;
-	margin-top: var(--height);
-	position: relative;
-}
-
-#slider .back-home {
-	padding: 12px 20px 15px 10px;
-	position: absolute;
-	top: 0;
-	text-align: center;
-	color: white;
-	text-decoration: none;
-	background-color: rgba(0,255,255,0.2);
-	border: 0px none none;
-	border-radius: 0px 0px 40px 0px;
-	font-weight: 600;
-}
-
-#slider .back-home:hover {
-	background-color: #45d6bd;
-	opacity: 0.8;
-	color: #333;
-}
-
-							/*Content Section*/
-#content {
-
-}
-							/*Footer Section*/
-#footer {
-
 }

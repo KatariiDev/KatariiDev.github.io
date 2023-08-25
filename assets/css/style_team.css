@@ -4,17 +4,25 @@
 	box-sizing: border-box;
 }
 
+*::selection {
+	background-color: #6935f2;
+}
+
 html {
 	font-family: arial;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.clear {
+	clear: both;
 }
 
 :root {
 	--height:50px;
 	--size-avatar: 40px;
-}
-
-::-webkit-scrollbar {
-	display: none
 }
 
 #main {
@@ -25,7 +33,7 @@ html {
 	z-index: 1;
 	text-transform: uppercase;
 	height: var(--height);
-	background-color: #000;
+	background: linear-gradient(-90deg, #ccc, black);
 	position: fixed;
 	top: 0;
 	left: 0;
