@@ -12,6 +12,10 @@ html {
 	font-family: arial;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .clear {
 	clear: both;
 }
