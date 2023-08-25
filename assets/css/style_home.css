@@ -450,3 +450,15 @@ html {
     color: white;
     font-weight: 600;
 }
+
+.modal .modal-nsafe-page {
+	display: inline-block;
+    float: right;
+    border: 1px solid #000;
+    padding: 6px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
