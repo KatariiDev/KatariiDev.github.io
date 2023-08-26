@@ -1,0 +1,21 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+*::selection {
+	background-color: #6935f2;
+}
+
+html {
+	font-family: arial;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.clear {
+	clear: both;
+}

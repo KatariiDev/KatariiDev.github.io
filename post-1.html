@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blog - Katarii's Website</title>
+	<link rel="stylesheet" href="./assets/css/post-1.css">
+	<link rel="stylesheet" type="text/css" href="./assets/fonts/themify-icons/themify-icons.css">
+	<link rel="shortcut icon" type="image/jpg" href="./assets/img/favicon/favicon.jpg"/>
+</head>
+<body>
+	<div id="header">
+		<a href="./index_more.html" class="header-back-more">
+			<i class="ti-angle-left"></i>
+			Back to More
+		</a>
+		<div class="task-bar">
+			<div class="logo-website">
+				<i class="ti-layout-grid2-alt"></i>
+			</div>
+			<div class="bread-crumb">
+				More
+				<i class="ti-angle-right"></i>
+				<i class="ti-thought"></i>
+				Blog
+			</div>
+		</div>
+	</div>
+
+	<div id="body">
+		<div class="blog">
+			<div class="blog-content">
+				<div class="person-posted-avatar"></div>
+				<div class="blog-post">
+					<a href="" class="post-name">Hướng dẫn deploy website với GitHub.</a>
+					<div class="person-posted-name">
+						Posted by: Katarii
+						<i class="ti-check"></i>
+					</div>
+				</div>
+			</div>
+
+			<div class="blog-desc">
+				<div class="date-posted">
+					<i class="ti-pencil"></i>
+					Posted date: 26/08/2023
+				</div>
+				<h3 class="blog-quest">1.GitHub là gì?</h3>
+				<ul class="blog-para">
+					<li>GitHub là một hệ thống quản lý dự án và phiên bản code, hoạt động giống như một mạng xã hội cho lập trình viên. Các lập trình viên có thể clone lại mã nguồn từ một repository và GitHub chính là một dịch vụ máy chủ repository công cộng, mỗi người có thể tạo tài khoản trên đó để tạo ra các kho chứa của riêng mình để có thể làm việc.</li>
+					<li>GitHub là một dịch vụ nổi tiếng cung cấp kho lưu trữ mã nguồn Git cho các dự án phần mềm. GitHub có đầy đủ những tính năng của Git, ngoài ra nó còn bổ sung những tính năng về social để các developer tương tác với nhau.</li>
+					<li>Tìm hiểu thêm về <a href="https://git-scm.com/">Git</a>.</li>
+					<img src="./assets/img/blog/post-1-1.jpg" alt="github là gì?" class="pic-1">
+					<li>GitHub cung cấp các tính năng social networking như feeds, followers, và network graph để các developer học hỏi kinh nghiệm của nhau thông qua lịch sử commit.</li>
+					<li>GitHub trở thành một yếu tố có sức ảnh hưởng lớn trong cộng động nguồn mở. Cùng với Linkedin, Github được coi là một sự thay thế cho CV của bạn. Các nhà tuyển dụng cũng rất hay tham khảo GitHub profile để hiểu về năng lực coding của ứng viên.</li>
+				</ul>
+
+				<h3 class="blog-quest">2.Deloy Website là gì?</h3>
+				<ul class="blog-para">
+					<li>Deploy (hay Deployment) được hiểu đơn giản là triển khai, sắp đặt một thứ gì đó.</li>
+					<li>Trong lĩnh vực phần mềm, Deploy được hiểu là triển khai tiến hành sử dụng phần mềm hoàn thiện trong môi trường ứng dụng thực tế. Nghĩa của chúng gần giống với install, thế nhưng Deploy mang một sắc thái ý nghĩa riêng, nó biến những Component được tham chiếu từ phần mềm trên máy chủ hoặc được sử dụng thông qua Internet từ bên ngoài hay những Component được tham chiếu từ các phần mềm khác thành trạng thái có thể sử dụng và tiếp cận được.</li>
+					<img src="./assets/img/blog/post-1-2.png" alt="Deploy website" class="pic-1">
+					<li>Một thuật ngữ luôn đi kèm với Deployment chính là Software Deployment. Thuật ngữ này được hiểu là quy trình bàn giao phần mềm đã hoàn thiện cho khách hàng hoặc từng phần mềm cụ thể cho người tiêu dùng. Software Deployment cần được kiểm tra kỹ lưỡng để đảm bảo không còn bất kỳ lỗ hổng và lỗi nào trước khi tiến hành (Mình sẽ làm phần Software Delployment cho post sau để tìm hiểu thêm).</li>
+				</ul>
+
+				<h3 class="blog-quest">3.Lợi ích khi Deploy Website?</h3>
+				<ul class="blog-para">
+					<li>Lợi ích đầu tiên cũng phổ biến nhất là chúng đẩy mạnh tốc độ phát triển kinh doanh bằng các giải pháp phần mềm hữu ích. Ngoài ra, với các giải pháp phần mềm doanh nghiệp có thể tăng cường các hoạt động nội bộ, từ đó tăng tiềm lực của mình.</li>
+					<img src="./assets/img/blog/post-1-3.jpg" alt="Lợi ích khi Deploy website" class="pic-1">
+					<li>Nền tảng này có thể tự động hóa các giải pháp liên quan đến kinh doanh từ đó củng cố quy trình quản lý.</li>
+					<li>Trong kỷ nguyên kỹ thuật số, Software Deployment có thể hỗ trợ doanh nghiệp kết nối với các thiết bị từ xa và người dùng có thể làm việc từ mọi thiết bị bất cứ lúc nào.
+					</li>
+				</ul>
+
+				<h3 class="blog-quest">4.Hướng dẫn Deploy Website</h3>
+				<h4 class="">Bước 1: Tạo repository.</h4>
+				<ul class="blog-para">
+					<li>Để bắt đầu Deploy Website, trước hết bạn cần truy cập vào trang GitHub cùng với tài khoản mà bạn muốn sử dụng để Deploy Website.</li>
+					<li>Đến trang GitHub <a href="https://github.com/">Tại đây</a>.</li>
+					<li>Khi đã đăng nhập thành công, bạn tìm đến button có dấu "+" ở thanh trên màn hình và chọn
+						<p class="bold">
+							<i class="ti-angle-right"></i>
+							New repository
+						</p>
+					</li>
+					<img src="./assets/img/blog/post-1-4.JPG" alt="Tạo repository" class="pic-2">
+					<li>Tại ô điền Repository name, bạn phải đặt tên theo mẫu dưới đây:</li>
+					<li>
+						<p class="bold">
+							username.github.io
+						</p>
+					</li>
+					<li>Với username là tên mà bạn đặt khi tạo và đăng nhập tài khoản.</li>
+					<li>Tiếp đến là trạng thái thư mục Public và Private.</li>
+					<img src="./assets/img/blog/post-1-5.JPG" alt="Public, Private?" class="pic-3">
+					<li>Vì Deploy Website bản chất mọi người đều có thể tương tác lên nó, tức là Website phải được giữ trạng thái <p class="bold">Public</p> mới mang lại hiệu quả trên.</li>
+					<li>Cuối cùng, nhớ tick vào <p class="bold">Add a README file</p> để push file lên GitHub.</li>
+					<img src="./assets/img/blog/post-1-6.JPG" alt="Public, Private?" class="pic-3">
+				</ul>
+				<h4>Bước 2: Thiết lập repository.</h4>
+				<ul class="blog-para">
+					<li>Vào repository bạn vừa tạo. Chọn <p class="bold">Setting</p></li>
+					<li>Hướng mắt vào Sidebar bên trái đến <p class="bold">Code và Automation</p> và chọn <p class="bold">Pages</p></li>
+					<li>Nhìn đến mục <p class="bold">Branch</p> và chon <p class="bold">main</p></li>
+					<img src="./assets/img/blog/post-1-7.JPG" alt="Branch">
+				</ul>
+				<h4>Bước 3: Cài đặt Git, tạo Folder và đăng nhập.</h4>
+				<ul class="blog-para">
+					<li>Tải Git <a href="https://git-scm.com/">Tại đây</a></li>
+					<li>Sau khi tải git xong, bạn tạo một Folder mang tên <p class="bold">username.github.io</p>.</li>
+					<li>Vào trong thư mục, bấm chuột phải và chọn <p class="bold">Open Git Bash here</p>.</li>
+					<img src="./assets/img/blog/post-1-8.JPG" alt="Git">
+					<li>Trong Git Bash, các bạn nhập theo hình dưới đây với <p class="bold">username</p> là tên mà bạn đăng kí và <p class="bold">email</p> là email bạn dùng đăng kí tài khoản.</li>
+					<img src="./assets/img/blog/post-1-9.JPG" alt="Git">
+				<h4>Bước 4: Sử dụng Git để tạo file HTML gốc và các lệnh push File lên GitHub</h4>
+				<ul class="blog-para">
+					<li>Tại Git Bash ban nãy, hãy nhập lệnh dưới đây để tạo một repository tại Folder.</li>
+					<img src="./assets/img/blog/post-1-10.JPG" alt="Git">
+					<li>Tiếp theo, bạn nhập lệnh dưới đây để tạo 1 File <p class="bold">index.html</p>.</li>
+					<img src="./assets/img/blog/post-1-11.JPG" alt="Git">
+					<li>Khi đã tạo thành công File HTML, chúng ta tiếp tục đến với các lệnh để push File lên GitHub.</li>
+					<li>Trong Git Bash, các bạn nhập theo các lệnh dưới đây.</li>
+					<img src="./assets/img/blog/post-1-12.JPG" alt="Git">
+					<li>Tại <p class="bold">Initial commit</p>, bạn có thể nhập các tin nhắn khác nhau, các tin nhắn này sẽ hiển thị bên cạnh các File Code của bạn trong GitHub.</li>
+				</ul>
+				<h4>Bước 5: Test đường dẫn Website</h4>
+				<ul class="blog-para">
+					<li>Khi đã thực hiện thành công các bước trên, ta tiến hành test đường dẫn đến Website của bạn nhé.</li>
+					<li>Đường dẫn của chúng ta sẽ có mẫu như sau: <p class="bold">username.github.io</p></li>
+					<li>Đường dẫn này cũng có thể được xem là tên <p class="bold">Folder</p> mà bạn tạo ban nãy với Git Bash</li>
+				</ul>
+				<h4>Bước 6: Khắc phục lỗi khi push File lên GitHub bằng Git Bash</h4>
+				<ul class="blog-para">
+					<li>Khi đã thực hiện thành công các bước trên, ta tiến hành test đường dẫn đến Website của bạn nhé.</li>
+					<li>Đường dẫn của chúng ta sẽ có mẫu như sau: <p class="bold">username.github.io</p></li>
+					<li>Đường dẫn này cũng có thể được xem là tên <p class="bold">Folder</p> mà bạn tạo ban nãy với Git Bash</li>
+				</ul>
+				<h3 class="blog-quest">7.Tạm kết</h3>
+				<ul class="blog-para">
+					<li>Trên đây là hướng dẫn chi tiết các bước để các bạn dễ dàng Deploy một Website của bản thân GitHub </li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+
+	<div id="footer">
+		
+	</div>
+</body>
+</html>
