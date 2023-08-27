@@ -68,7 +68,7 @@ html {
 }
 
 #body {
-	padding: 0 300px;
+	padding: 0 100px;
 	padding-top: 100px;
 	/*height: 5000px;*/
 }
@@ -146,7 +146,7 @@ html {
 
 .pic-1 {
 	width:100%;
-	height: 400px;
+	height: 600px;
 }
 
 .pic-2 {
