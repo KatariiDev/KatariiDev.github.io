@@ -23,9 +23,9 @@ html {
 #header {
 	position: fixed;
 	width: 100%;
-	background: #ccc;
+	background: white;
 	height: 39px;
-	z-index: 1
+	z-index: 1;
 }
 
 #header .header-back-more {
