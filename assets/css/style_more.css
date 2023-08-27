@@ -125,10 +125,7 @@ html {
 }
 
 #slider .slider-container-list {
-	border: 1px solid cyan;
-	border-left: none;
-	border-right: none;
-	border-radius: 20px;
+	
 }
 
 #slider .slider-container-list li{
