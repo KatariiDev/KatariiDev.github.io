@@ -84,25 +84,6 @@ html {
 	position: relative;
 }
 
-#slider .back-home {
-	padding: 12px 20px 15px 10px;
-	position: absolute;
-	top: 0;
-	text-align: center;
-	color: white;
-	text-decoration: none;
-	background-color: rgba(0,255,255,0.2);
-	border: 0px none none;
-	border-radius: 0px 0px 40px 0px;
-	font-weight: 600;
-}
-
-#slider .back-home:hover {
-	background-color: #45d6bd;
-	opacity: 0.8;
-	color: #333;
-}
-
 							/*Content Section*/
 #content {
 
