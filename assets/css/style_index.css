@@ -24,29 +24,46 @@ html {
 	clear: both;
 }
 
+.header {
+	display: flex;
+	position: relative;
+	height: 50px;
+}
+
+.header #favicon {
+	margin-top: 30px;
+	margin-left: 70px;
+	display: inline-block;
+	--favicon-size: 50px;
+	position: relative;
+	width: var(--favicon-size);
+	height: var(--favicon-size);
+	background: url("/assets/img/welcome/favicon-welcome.jpg") top center / cover no-repeat;
+}
+
 #main {
 	position: relative;
-	width: 100%;
-	text-align: center;
-	color: white;
 }
 
 #main .background-welcome {
 	background: url("/assets/img/welcome/welcome-background.png") top center / cover no-repeat;
 	height: 656px;
 }
+.body {
+	width: 100%;
+	color: white;
+	text-transform: uppercase;
+	padding: 20px 650px 100px 70px;
+}
 
 #main .button-started {
 	position: absolute;
-	text-transform: uppercase;
 	border: 1px solid #ccc;
 	border-radius: 15px;
 	padding: 14px;
 	text-decoration: none;
 	color: white;
-	bottom: 145px;
-	left: 50%;
-	transform: translateX(-50%);
+	bottom: 150px;
 	font-weight: 600;
 }
 
@@ -57,27 +74,80 @@ html {
 
 #main .main-heading {
 	text-shadow: 3px 2px blue;
-	font-size: 90px;
+	font-size: 70px;
 	padding-bottom: 10px;
+	padding-top: 130px;
 }
 
 #main .main-sub-heading {
 	font-size: 30px;
-	padding: 10px 0;
+	padding-top: 10px;
+	padding-bottom: 25px;
 }
 
 #main .main-desc {
-	font-size: 16px;
-	padding: 20px 200px; 
+	line-height: 1.7;
+	text-align: justify;
+	padding: 10px 0;
+	font-size: 12px; 
 }
 
-#favicon {
-	top: 65px;
-	position: relative;
-	margin-left: 50%;
-	transform: translateX(-50%);
-	margin-bottom: 95px;
-	width: 100px;
-	height: 100px;
-	background: url("/assets/img/welcome/favicon-welcome.jpg") top center / cover no-repeat;
+.header .admin-name {
+	color: white;
+	margin-left: 10px;
+	margin-top: 45px;
+	font-size: 20px;
+	font-weight: 600;
 }
+
+.verified {
+	font-size: 12px;
+	border-radius: 100em;
+	background: blue;
+	border: 3px solid #ccc;
+}
+
+#main .nav {
+	margin-top: 25px;
+	margin-right: 25px; 
+	color: white;
+	display: flex;
+	position: absolute;
+	right: 0;
+}
+
+#main .nav-main {
+	font-size: 20px;
+	font-weight: 500;
+    padding: 20px 30px;
+    color: white;
+    text-decoration: none;
+
+}
+
+#main .nav-main:hover {
+	background: #ccc;
+	color: black;
+}
+
+.ti-menu {
+
+}
+
+/*#main .ti-menu:hover li {
+	display: inline-block;
+}
+
+#main .subnav {
+	right: 0;
+	margin-top: 10px;
+	width: 100%;
+	position: absolute;
+	color: white;
+	list-style-type: none;
+	display: none;
+}
+
+#main .subnav:hover li {
+	display: inline-block;
+}*/
