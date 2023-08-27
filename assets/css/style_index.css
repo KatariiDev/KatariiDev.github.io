@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+*::selection {
+	background-color: #6935f2;
+}
+
+html {
+	font-family: arial;
+}
+
+:root {
+	--black-background: rgb(13,17,23);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.clear {
+	clear: both;
+}
+
+#main {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+#main .background-welcome {
+	background: url("/assets/img/welcome/welcome-background.png") top center / cover no-repeat;
+	height: 656px;
+}
+
+#main .button-started {
+	position: absolute;
+	text-transform: uppercase;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	padding: 14px;
+	text-decoration: none;
+	color: white;
+	bottom: 145px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-weight: 600;
+}
+
+#main .button-started:hover {
+	background: #bcbcbc;
+	color: #343d53;
+}
+
+#main .main-heading {
+	text-shadow: 3px 2px blue;
+	font-size: 90px;
+	padding-bottom: 10px;
+}
+
+#main .main-sub-heading {
+	font-size: 30px;
+	padding: 10px 0;
+}
+
+#main .main-desc {
+	font-size: 16px;
+	padding: 20px 200px; 
+}
+
+#favicon {
+	top: 65px;
+	position: relative;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	margin-bottom: 95px;
+	width: 100px;
+	height: 100px;
+	background: url("/assets/img/welcome/favicon-welcome.jpg") top center / cover no-repeat;
+}
