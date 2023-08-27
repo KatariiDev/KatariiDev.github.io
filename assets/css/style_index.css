@@ -80,6 +80,7 @@ html {
 }
 
 #main .main-sub-heading {
+	letter-spacing: 18px;
 	font-size: 30px;
 	padding-top: 10px;
 	padding-bottom: 25px;
