@@ -26,7 +26,7 @@ html {
 }
 
 #main {
-
+	/*overflow:: hidden;*/
 }
 							/*Header Section*/
 #header {
@@ -271,6 +271,7 @@ html {
 
 #content .content-section {
 	width: 800px;
+	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 64px 15px;
