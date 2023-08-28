@@ -156,7 +156,7 @@ html {
 @media (max-width: 739px) {
 	#main .background-welcome {
 		min-width: 720px;
-		min-height: 1150px;
+		min-height: 1280px;
 	}
 
 	#main .nav-main {
