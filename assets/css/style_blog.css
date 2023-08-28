@@ -152,10 +152,29 @@ html {
 	
 }
 
+.posting {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 10px;
+	background: linear-gradient(to right bottom, #20b2aa, #a0db8e);
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.editing {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 10px;
+	background: red;
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+}
+
 .post .new-post {
 	display: inline-block;
 	padding: 10px;
-	border: 1px none none;
 	border-radius: 10px;
 	background: linear-gradient(to right bottom,#f5857d, #f44336);
 	color: white;

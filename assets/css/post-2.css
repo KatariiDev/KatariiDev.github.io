@@ -125,6 +125,7 @@ html {
 }
 
 .blog-desc .blog-quest {
+	text-decoration: underline;
 	padding: 15px 0 20px 0;
 	font-size: 20px;
 }
