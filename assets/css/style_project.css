@@ -176,6 +176,10 @@ html {
 
 }
 
+.menu-btn {
+	display: none;
+}
+
 @media (max-width: 739px) {
 	#nav li {
 		display: block;
@@ -199,5 +203,19 @@ html {
    		width: 100%;
     	color: #ff7f59;
     	text-shadow: 1px 1px #ccc;
+	}
+
+	.menu-btn {
+		display: block;
+	}
+
+	#slider .slider-heading-project {
+    	font-weight: 600;
+    	font-size: 55px;
+	}
+
+	#slider .slider-sub-heading-project {
+    	font-size: 14px;
+    	font-style: italic;
 	}
 }

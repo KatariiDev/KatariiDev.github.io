@@ -153,6 +153,36 @@ html {
 	display: inline-block;
 }*/
 
+@media (min-width: 740px) and (max-width: 1023px) {
+	#main .background-welcome {
+		min-width: 720px;
+		min-height: 1026px;
+	}
+
+	#main .nav-main {
+		display: none;
+	}
+
+	.body {
+    	width: 100%;
+    	color: white;
+    	text-transform: uppercase;
+    	padding: 195px 101px 0px 51px;
+	}
+
+	#main .button-started {
+    	position: absolute;
+    	border: 1px solid #ccc;
+    	border-radius: 15px;
+    	padding: 14px;
+    	text-decoration: none;
+    	color: white;
+    	bottom: 325px;
+    	font-weight: 600;
+    }
+}
+
+
 @media (max-width: 739px) {
 	#main .background-welcome {
 		min-width: 720px;
@@ -164,7 +194,6 @@ html {
 	}
 
 	.body {
-<<<<<<< HEAD
     	width: 100%;
     	color: white;
     	text-transform: uppercase;
@@ -180,22 +209,5 @@ html {
     	color: white;
     	bottom: 570px;
     	font-weight: 600;
-=======
-    		width: 100%;
-    		color: white;
-    		text-transform: uppercase;
-    		padding: 195px 101px 0px 51px;
-	}
-
-	#main .button-started {
-    		position: absolute;
-    		border: 1px solid #ccc;
-    		border-radius: 15px;
-    		padding: 14px;
-    		text-decoration: none;
-    		color: white;
-    		bottom: 570px;
-    		font-weight: 600;
->>>>>>> 81c95c4c42bdd25562c27cb8f67e3544b32f913f
 	}
 }

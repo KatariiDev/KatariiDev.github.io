@@ -487,6 +487,10 @@ html {
     	font-weight: 600;
 }
 
+.menu-btn {
+	display: none;
+}
+
 @media (max-width: 739px) {
 	#nav li {
 		display: block;
@@ -514,5 +518,47 @@ html {
 	#slider .text-description {
     	font-size: 12px;
     	margin-top: 25px;
+	}
+
+	.menu-btn {
+		display: block;
+	}
+
+	.project-items {
+    	margin: 20px 0;
+    	float: left;
+    	width: calc(100%);
+    	padding: 0 8px;
+	}
+
+	.modal .modal-body-section {
+    	border-bottom: 1px solid #ccc;
+    	padding: 0 20px 60px 20px;
+	}
+
+	.modal .modal-safe-page {
+		margin: 20px 0;
+    	display: inline-block;
+    	float: right;
+    	border: 1px solid #000;
+    	padding: 6px;
+    	border-radius: 7px;
+    	text-align: center;
+    	background-color: green;
+    	color: white;
+    	font-weight: 600;
+	}
+
+	.modal .modal-nsafe-page {
+    	margin: 20px 0;
+    	display: inline-block;
+    	float: right;
+    	border: 1px solid #000;
+    	padding: 6px;
+    	border-radius: 7px;
+    	text-align: center;
+    	background-color: red;
+    	color: white;
+    	font-weight: 600;
 	}
 }

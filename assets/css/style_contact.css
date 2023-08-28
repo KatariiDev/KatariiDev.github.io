@@ -108,6 +108,10 @@ html {
 
 }
 
+.menu-btn {
+	display: none;
+}
+
 @media (max-width: 739px) {
 	#nav li {
 		display: block;
@@ -115,5 +119,9 @@ html {
 
 	#header .avatar-demo {
 		display: none
+	}
+
+	.menu-btn {
+		display: block;
 	}
 }

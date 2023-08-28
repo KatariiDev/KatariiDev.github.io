@@ -105,18 +105,6 @@ html {
 	display: flex;
 }
 
-.pic-1 {
-	background: url("/assets/img/blog/post-1.jpeg") top center / cover no-repeat;
-}
-
-.pic-2 {
-	
-}
-
-.pic-3 {
-	
-}
-
 #body .blog-post {
 	padding:0 10px;
 	padding-top: 24px;
@@ -128,6 +116,7 @@ html {
 	padding-bottom: 20px;
 	text-decoration: none;
 	font-weight: 700;
+	line-height: 1.6;
 }
 
 #body .blog-post .person-posted-name {
@@ -163,8 +152,62 @@ html {
 	
 }
 
+.post .new-post {
+	display: inline-block;
+	padding: 10px;
+	border: 1px none none;
+	border-radius: 10px;
+	background: linear-gradient(to right bottom,#f5857d, #f44336);
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+}
+
 @media (min-width: 740px) and (max-width: 1023px) {
-	
+	#header .task-bar {
+		/*position: absolute;
+    	background: #ccc;
+    	color: black;
+    	display: flex;
+    	float: right;
+    	padding: 10px 15px;
+    	border-radius: 10px;
+    	font-weight: 600;
+    	position: fixed;
+    	z-index: 1;
+    	height: 39px;*/
+    	display: none;
+	}
+
+	#body {
+    	width: 100%;
+    	padding: 0 20px;
+    	padding-top: 100px;
+    	display: inline-block;
+    	background: var(--black-background);
+    	padding-bottom: 100px;
+	}
+
+	#body .post {
+    	position: relative;
+    	/* display: flex; */
+    	padding: 35px 157px;
+    	border: 5px solid #ccc;
+    	border-radius: 16px;
+    	width: calc(100%);
+    	margin: 0;
+	}
+
+	.post {
+		padding:15px 20px;
+	}
+
+	#body .post-picture {
+    	height: 215px;
+    	width: 100%;
+    	border: 1px solid #ccc;
+    	display: flex;
+	}
 }
 
 @media (max-width: 739px) {
