@@ -167,7 +167,7 @@ html {
     		width: 100%;
     		color: white;
     		text-transform: uppercase;
-    		padding: 110px 101px 0px 51px;
+    		padding: 195px 101px 0px 51px;
 	}
 
 	#main .button-started {
@@ -177,7 +177,7 @@ html {
     		padding: 14px;
     		text-decoration: none;
     		color: white;
-    		bottom: 530px;
+    		bottom: 570px;
     		font-weight: 600;
 	}
 }
