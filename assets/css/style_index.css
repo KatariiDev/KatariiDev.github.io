@@ -120,9 +120,9 @@ html {
 	text-transform: uppercase;
 	font-size: 20px;
 	font-weight: 500;
-    padding: 20px 30px;
-    color: white;
-    text-decoration: none;
+    	padding: 20px 30px;
+    	color: white;
+    	text-decoration: none;
 }
 
 #main .nav-main-menu:hover,
@@ -156,7 +156,7 @@ html {
 @media (max-width: 739px) {
 	#main .background-welcome {
 		min-width: 720px;
-		min-height: 1000px;
+		min-height: 1150px;
 	}
 
 	#main .nav-main {
@@ -164,20 +164,20 @@ html {
 	}
 
 	.body {
-    	width: 100%;
-    	color: white;
-    	text-transform: uppercase;
-    	padding: 110px 101px 0px 51px;
+    		width: 100%;
+    		color: white;
+    		text-transform: uppercase;
+    		padding: 110px 101px 0px 51px;
 	}
 
 	#main .button-started {
-    	position: absolute;
-    	border: 1px solid #ccc;
-    	border-radius: 15px;
-    	padding: 14px;
-    	text-decoration: none;
-    	color: white;
-    	bottom: 380px;
-    	font-weight: 600;
+    		position: absolute;
+    		border: 1px solid #ccc;
+    		border-radius: 15px;
+    		padding: 14px;
+    		text-decoration: none;
+    		color: white;
+    		bottom: 530px;
+    		font-weight: 600;
 	}
 }
