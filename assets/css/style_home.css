@@ -38,6 +38,7 @@ html {
 	left: 0;
 	right: 0;
 	z-index: 1;
+	overflow: hidden;
 }
 
 #nav {
@@ -68,6 +69,19 @@ html {
 	color: white;
 	text-decoration: none;
 	font-weight: 600;
+}
+
+.menu-btn {
+	font-size: 20px;
+	color: #737171;
+	float: right;
+	padding: 0 21px;
+	line-height: 50px;
+}
+
+.menu-btn:hover {
+	background: #ccc;
+	color: black;
 }
 
 #header .avatar-demo {
@@ -471,4 +485,34 @@ html {
     	background-color: red;
     	color: white;
     	font-weight: 600;
+}
+
+@media (max-width: 739px) {
+	#nav li {
+		display: block;
+	}
+
+	#header .avatar-demo {
+		display: none
+	}
+
+	#slider .text-content-slider {
+    	position: absolute;
+    	color: white;
+    	bottom: 78px;
+    	text-align: center;
+    	width: 100%;
+	}
+
+	#slider .text-heading {
+    	font-weight: 600;
+    	font-size: 24px;
+    	color: #50c878;
+    	text-shadow: 2px 2px #ccc;
+	}
+
+	#slider .text-description {
+    	font-size: 12px;
+    	margin-top: 25px;
+	}
 }

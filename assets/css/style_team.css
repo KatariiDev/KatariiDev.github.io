@@ -38,6 +38,7 @@ html {
 	top: 0;
 	left: 0;
 	right: 0;
+	overflow: hidden;
 }
 
 #nav {
@@ -74,6 +75,19 @@ html {
 	box-shadow: 0px 0px 1px 1px cyan;
 	line-height: var(--height);
 	margin: 5px 10px 5px 0px;
+}
+
+.menu-btn {
+	font-size: 20px;
+	color: #737171;
+	float: right;
+	padding: 0 21px;
+	line-height: 50px;
+}
+
+.menu-btn:hover {
+	background: #ccc;
+	color: black;
 }
 
 							/*Slider Section*/
@@ -161,4 +175,23 @@ html {
 							/*Footer Section*/
 #footer {
 
+}
+
+@media (max-width: 739px) {
+	#nav li {
+		display: block;
+	}
+
+	#header .avatar-demo {
+		display: none
+	}
+
+	#slider .slider-section-team {
+    	bottom: 40px;
+    	position: absolute;
+    	text-align: center;
+    	width: 100%;
+    	color: white;
+    	text-shadow: 1px 1px #ccc;
+    }
 }

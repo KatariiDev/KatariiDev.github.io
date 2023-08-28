@@ -34,13 +34,13 @@
 						Contact
 					</a>
 
-					<a href="#" class="nav-main">
+					<div id="mobile-menu" class="nav-main-menu">
 						<i class="ti-menu"></i>
 						<!-- <ul class="subnav">
 							<li>Sign up</li>
 							<li>Log in</li>
 						</ul> -->
-					</a>
+					</div>
 
 				</div>
 			</div>
@@ -56,6 +56,22 @@
 			
 		</div>
 	</div>
+
+	<!-- <script>
+		var header = document.getElementById('header');
+		var mobileMenu = document.getElementById('mobile-menu');
+		var headerHeight = header.clientHeight
+
+		mobileMenu.onclick = function() {
+			var isClosed = header.clientHeight === headerHeight;
+			if (isClosed) {
+				header.style.height = 'auto'
+			}	else 	{
+				header.style.height = '50px'
+			}
+
+		}
+	</script> -->
 </body>
 </html>
 

@@ -26,7 +26,7 @@ html {
 }
 
 #main {
-
+	overflow: hidden;
 }
 							/*Header Section*/
 #header {
@@ -38,6 +38,7 @@ html {
 	top: 0;
 	left: 0;
 	right: 0;
+	overflow: hidden;
 }
 
 #nav {
@@ -65,6 +66,19 @@ html {
 	font-weight: 600;
 }
 
+.menu-btn {
+	font-size: 20px;
+	color: #737171;
+	float: right;
+	padding: 0 21px;
+	line-height: 50px;
+}
+
+.menu-btn:hover {
+	background: #ccc;
+	color: black;
+}
+
 #header .avatar-demo {
 	height: var(--size-avatar);
 	width: var(--size-avatar);
@@ -87,7 +101,7 @@ html {
 #slider .slider-container{
 	position: absolute;
 	top: 0;
-/*	padding: 0 170px;*/
+	padding: 0 293px;
 }
 
 #slider .slider-heading{
@@ -131,7 +145,7 @@ html {
 	padding: 10px;
 	font-size: 15px;
 	margin-top:20px;
-	margin-right: 16px;
+	/*margin-right: 16px;*/
 }
 
 #slider .slider-container-icons {
@@ -149,8 +163,52 @@ html {
 	padding: 30px 0;
 }
 
+@media (min-width: 1024px) {
+	#slider {
+		min-height: 780px;
+	}
+
+	#slider .slider-container{
+		position: absolute;
+		top: 0;
+		padding: 0 122px;
+	}
+}
+
 @media (min-width: 740px) and (max-width: 1023px) {
 	#slider {
 		min-height: 973px;
 	}
+
+	#slider .slider-container{
+		position: absolute;
+		top: 0;
+		padding: 0;
+	}
+}
+
+@media (max-width: 739px) {
+	#nav li {
+		display: block;
+	}
+
+	#header .avatar-demo {
+		display: none
+	}
+
+	#slider .slider-container{
+		position: absolute;
+		top: 0;
+		padding: 0;
+	}
+
+	#slider {
+		min-height: 1000px;
+		padding: 0 10px;
+	}
+
+	#slider .slider-container-list {
+    	display: flex;
+    	margin: 0 10px;
+    }
 }

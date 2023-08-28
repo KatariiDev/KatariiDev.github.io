@@ -39,6 +39,9 @@
 				</li>
 			</ul>
 			<div class="avatar-demo"></div>
+			<div id="mobile-menu" class="menu-btn">
+				<i class="ti-menu"></i>
+			</div>
 		</div>
 
 		<!-- SLIDER -->
@@ -363,6 +366,22 @@
 		modalClose1.addEventListener("click", hideNavPage1)
 		modalClose2.addEventListener("click", hideNavPage2)
 		modalClose3.addEventListener("click", hideNavPage3)
+	</script>
+
+	<script>
+		var header = document.getElementById('header');
+		var mobileMenu = document.getElementById('mobile-menu');
+		var headerHeight = header.clientHeight
+
+		mobileMenu.onclick = function() {
+			var isClosed = header.clientHeight === headerHeight;
+			if (isClosed) {
+				header.style.height = 'auto'
+			}	else 	{
+				header.style.height = '50px'
+			}
+
+		}
 	</script>
 </body>
 </html>

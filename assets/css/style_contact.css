@@ -38,6 +38,7 @@ html {
 	left: 0;
 	right: 0;
 	z-index: 1;
+	overflow: hidden;
 }
 
 #nav {
@@ -64,6 +65,20 @@ html {
 	text-decoration: none;
 	font-weight: 600;
 }
+
+.menu-btn {
+	font-size: 20px;
+	color: #737171;
+	float: right;
+	padding: 0 21px;
+	line-height: 50px;
+}
+
+.menu-btn:hover {
+	background: #ccc;
+	color: black;
+}
+
 #header .avatar-demo {
 	height: var(--size-avatar);
 	width: var(--size-avatar);
@@ -91,4 +106,14 @@ html {
 							/*Footer Section*/
 #footer {
 
+}
+
+@media (max-width: 739px) {
+	#nav li {
+		display: block;
+	}
+
+	#header .avatar-demo {
+		display: none
+	}
 }
