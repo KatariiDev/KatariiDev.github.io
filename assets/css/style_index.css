@@ -120,9 +120,9 @@ html {
 	text-transform: uppercase;
 	font-size: 20px;
 	font-weight: 500;
-    padding: 20px 30px;
-    color: white;
-    text-decoration: none;
+    	padding: 20px 30px;
+    	color: white;
+    	text-decoration: none;
 }
 
 #main .nav-main-menu:hover,
@@ -164,6 +164,7 @@ html {
 	}
 
 	.body {
+<<<<<<< HEAD
     	width: 100%;
     	color: white;
     	text-transform: uppercase;
@@ -179,5 +180,22 @@ html {
     	color: white;
     	bottom: 570px;
     	font-weight: 600;
+=======
+    		width: 100%;
+    		color: white;
+    		text-transform: uppercase;
+    		padding: 195px 101px 0px 51px;
+	}
+
+	#main .button-started {
+    		position: absolute;
+    		border: 1px solid #ccc;
+    		border-radius: 15px;
+    		padding: 14px;
+    		text-decoration: none;
+    		color: white;
+    		bottom: 570px;
+    		font-weight: 600;
+>>>>>>> 81c95c4c42bdd25562c27cb8f67e3544b32f913f
 	}
 }
