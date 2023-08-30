@@ -19,3 +19,215 @@ html {
 .clear {
 	clear: both;
 }
+
+#header {
+	position: fixed;
+	width: 100%;
+	background: var(--black-background);
+	height: 39px;
+	z-index: 1
+}
+
+#header .header-back-more {
+	border-radius: 0px 3px 23px 0px;
+	background: linear-gradient(to bottom right, #cd6090, #6d44d5);
+	display: inline-block;
+	padding: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: white;
+	position: fixed;
+	box-shadow: 2px 2px #ccc;
+}
+
+#header .header-back-more:hover {
+	background: #ccc;
+	color: black;
+}
+
+#body {
+	height: 1000px;
+	padding-top: 40px;
+	background: url('/assets/img/help/help-bg.png') top center / cover no-repeat;
+}
+
+.help-welcome-1,
+.help-welcome-2 {
+	text-transform: uppercase;
+	font-weight: 800;
+	text-align: center;
+}
+
+.help-welcome-1 {
+	background: linear-gradient(to right bottom, #e26868, #f2ab49);
+	-webkit-background-clip: text;
+	color: transparent;
+	font-size:  40px;
+	margin-top: 35px;
+}
+
+/*.help-welcome-2 {
+	font-size: 40px;
+	color: white;
+}*/
+
+.container {
+	position: relative;
+}
+
+.body-1 {
+	padding-top: 100px;
+	padding-left: 30px;
+}
+
+.ti-check {
+	border-radius: 100em;
+	border: 3px solid #ccc;
+	background: blue;
+	color: white;
+	margin-left: 5px;
+	font-size: 14px;
+}
+
+.ti-comment {
+	padding-right: 10px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.sidebar-left {
+
+}
+
+.body-1 .container {
+	width: 360px;
+	height: 420px;
+	padding: 20px 15px;
+	background: #ccc;
+	border-radius: 10px;
+}
+
+.body-1 .container li{
+	list-style-type: none;
+	margin: 20px 0
+}
+
+.body-1 .container li:first-child {
+	list-style-type: none;
+	margin-top: 15px;
+}
+
+.body-1 .container li a {
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.body-1 .nav-container {
+	padding-left: 20px;
+	position: relative;
+}
+
+.body-1 .nav-container li {
+	margin: 18px 0;
+	color: black;
+	border-radius: 10px;
+	padding: 10px;
+	max-height: 38px;
+}
+
+.body-1 .nav-container li:hover {
+	background: #e19191;
+}
+
+.body-1 .nav-container li a{
+	color: black;
+}
+
+.body-1 .reply-container-1,
+.body-1 .reply-container-2,
+.body-1 .reply-container-3,
+.body-1 .reply-container-4 {
+	top: -27px;
+    color: white;
+    left: 340px;
+    position: absolute;
+    display: none;
+    width: 460px;
+    background:rgb(153, 153 ,153);
+    border-radius: 10px;
+    padding: 10px 0 0 10px;
+}
+
+.reply-container-1::before,
+.reply-container-2::before,
+.reply-container-3::before,
+.reply-container-4::before {
+	position: absolute;
+	content: '';
+	height: 10%;
+	width: 20px;
+	clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+	background: rgb(153, 153 ,153);
+	transform: translateX(-28px);
+}
+
+.body-1 .reply-container-1 {
+	height: 230px;
+	position: relative;	
+}
+
+.body-1 .reply-container-2 {
+	height: 290px;
+	position: relative;
+}
+
+.body-1 .reply-container-3 {
+	height: 190px;
+	position: relative;
+}
+
+.body-1 .reply-container-4 {
+	height: 190px;
+	position: relative;
+}
+
+.body-1 .nav-container .answer-question{
+	color: black;
+	font-size: 14px;
+	line-height: 1.6;
+	padding-top: 10px;
+}
+
+.body-1 .nav-container .answer-question:first-child {
+	padding-top: 0;
+}
+
+.body-1 .nav-container .question {
+
+}
+
+.body-1 .container .container-question {
+
+}
+
+.body-1 .nav-container li:hover div.reply-container-1,
+.body-1 .nav-container li:hover div.reply-container-2,
+.body-1 .nav-container li:hover div.reply-container-3,
+.body-1 .nav-container li:hover div.reply-container-4 {
+	display: block;
+}
+
+.border-space {
+	height: 1px,
+	width: 10px;
+	color: rgba(0,0,0,0.8);
+
+}
+
+.admin-answer {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+}

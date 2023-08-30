@@ -74,10 +74,10 @@ html {
 
 #body {
 	padding: 0 50px;
-	padding-top: 100px;
+	padding-top: 75px;
 	display: flex;
 	background: var(--black-background);
-	padding-bottom: 300px;
+	padding-bottom: 10px;
 }
 
 #body .blog-content {
@@ -92,10 +92,15 @@ html {
 	border-radius: 16px;
 	width: calc(100% / 4);
 	margin: 0px 30px;
+	cursor: pointer;
 }
 
 #body .post:hover {
 	box-shadow: 7px 7px #ccc;
+}
+
+.post:hover > a {
+
 }
 
 #body .post-picture {
